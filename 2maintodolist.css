@@ -1,0 +1,38 @@
+/* common */
+* {
+  margin: 0;
+  /* 브라우저에 기본 margin값이 있어서 0으로 설정함 */
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* header */
+
+header {
+  background-color: rgb(155, 193, 126);
+  height: 60px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 60px;
+}
+
+/* contents */
+.contents {
+  display: flex;
+  flex-direction: column;
+  /* 세로방향 */
+  align-items: center;
+}
+
+.input-part {
+  padding: 30px 0px;
+}
+
+.list-part .todo-list {
+  text-align: center;
+}
